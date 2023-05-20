@@ -1,0 +1,18 @@
+Proceso Suma
+	
+	Numero1 = 0
+	Numero2 = 0
+	Resultado = 0
+	
+	
+	Imprimir "Ingrese el primer numero"
+	Leer Numero1
+	
+	Imprimir "Ingrese el segundo numero"
+	Leer Numero2
+	
+	Resultado = Numero1+Numero2
+	
+	Imprimir " La suma de " Numero1 " + " Numero2 " es " Resultado
+	
+FinProceso

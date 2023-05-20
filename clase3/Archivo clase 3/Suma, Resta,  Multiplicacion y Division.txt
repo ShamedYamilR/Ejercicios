@@ -1,0 +1,32 @@
+Proceso Calculadora
+	//Funcion que calcule de dos valores la suma, resta, multiplicacion y division.
+	
+	Numero1 = 0
+	Numero2 = 0
+	Resultado = 0
+		
+	Imprimir "Ingrese el primer numero"
+	Leer Numero1
+	
+	Imprimir "Ingrese el segundo numero"
+	Leer Numero2
+	
+	Resultado = Numero1+Numero2
+	
+	Imprimir " La suma de " Numero1 " + " Numero2 " es " Resultado
+	
+	Resultado = Numero1-Numero2
+	
+	Imprimir " La resta de " Numero1 " - " Numero2 " es " Resultado
+	
+	Resultado = Numero1*Numero2
+	
+	Imprimir " La multiplicacion de " Numero1 " * " Numero2 " es " Resultado
+	
+	Resultado = Numero1/Numero2
+	
+	Imprimir " La Resta de " Numero1 " / " Numero2 " es " Resultado
+	
+	
+	
+FinProceso

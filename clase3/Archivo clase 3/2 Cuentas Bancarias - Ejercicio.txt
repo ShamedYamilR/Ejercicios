@@ -1,0 +1,39 @@
+Proceso CuentaAhorro
+	
+	Cuenta1 = 1
+	Cuenta2 = 2
+	
+	Imprimir "Digite su Numero de Cuenta"
+	Leer Cuenta1
+	
+	Imprimir "Digite su Numero de Cuenta"
+	Leer Cuenta2
+	
+	Imprimir " Ingrese el # de la Operacion a realizar: "
+	Imprimir "  Retiro " //(retirar S/. de mi cuenta) 
+	Imprimir "  Deposito " //(Pedir cta a depositar "efectivo", sumar a la cta destino)
+	Imprimir "  Transferencia " //Pedir cta a depositar, restar a la cuenta origen y sumar a la cta destino)
+	Imprimir "  Salir "
+	
+	Leer OP
+	
+	Según OP Hacer	
+		'Retiro':
+			Resultado=Cuenta1
+			Mensaje = "Su retiro a sido realizado con éxito"
+		'Deposito':
+			Resultado=Numero1-Numero2
+			Mensaje = "Su depósito a sido realizado con éxito"
+		'Transferencia':
+			Resultado=Numero1*Numero2
+			Mensaje = "Su transferencia a sido realizado con éxito "
+		'Salir':
+			Resultado=0
+	
+De Otro Modo:
+	Resultado=0
+Fin Segun
+	
+	
+	
+FinProceso
